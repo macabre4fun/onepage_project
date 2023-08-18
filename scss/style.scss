@@ -1,0 +1,70 @@
+@use "sass:math";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import 'variables';
+@import 'custom';
+
+
+// // The default font size for html is 16px
+// $base-size: 16;
+// //Function to convert px value into rem
+// //You can replace rem with any other value you want (rem is most preferred value for web)
+// @function size($target, $context: $base-size) {
+//   @return ($target / $context) * 1rem;
+// }
+// // Let's use the size whenever you want
+
+
+// @mixin px-to-rem($pxValue, $property: "font-size", $standard-size: 16) {
+//     // #{$property}: $pxValue + px;
+//     #{$property}: $pxValue/$standard-size + rem;
+//   }
+
+// .header {
+//     font-size: size(30);
+// }
+// .header {
+//     @include px-to-rem(30);
+// }
+// %circle-extend {
+//     width: 50px;
+//     height: 50px;
+//     border-radius: 25px;
+//   }
+
+// @mixin circle($color: black) {
+//     @extend %circle-extend;
+//     background-color: $color;
+//     $alpha: 0.3;
+//     box-shadow: 1px 1px rgba($color, $alpha);
+// }
+// .circle-red {
+//     @include circle(red);
+// }
+// .circle-blue {
+//     @include circle($color: blue);
+// }
+// .circle-yellow {
+//     @include circle($color: yellow);
+// }
+// .circle-purple {
+//     @include circle($color: purple);
+// }
+// %extend-box {
+//     width: 50px + 50px;
+//     height: 50px - 20px;
+//     border-radius: 25px;
+//     background-color: red;
+// }
+// .box1 {
+//     @extend %extend-box;
+// }
+// .box2 {
+//     @extend %extend-box;
+//   }
+// .box3 {
+//     @extend %extend-box;
+// }
+// .box4 {
+//     @extend %extend-box;
+// }
+
